@@ -1,0 +1,143 @@
+(footprint "MIC1"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "DC Barrel Jack")
+	(tags "Power Jack")
+	(property "Reference" "MIC1"
+		(at -6.962 -0.381 90)
+		(layer "F.SilkS")
+		(uuid "6344b22f-b3ce-4ba3-bc77-e387b2c02254")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MIC1"
+		(at -6.962 -5.14 90)
+		(layer "F.Fab")
+		(uuid "daa45f9d-7c0a-4adc-9bd5-18804e2959e8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ace91957-9af5-44ee-9ebb-de0d81d7817b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a70f46e4-6088-498f-a007-7d0aa6235a96")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -8.255 -7.62)
+		(end -8.255 6.985)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c6b7a446-e3e5-4d6b-8de9-52451659fa4e")
+	)
+	(fp_line
+		(start -8.255 6.985)
+		(end 2.54 6.985)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1c010bd1-6124-4386-b59d-c849d4cb5562")
+	)
+	(fp_line
+		(start 2.54 -7.62)
+		(end -8.255 -7.62)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "139c2e86-719c-48ca-95a9-864bfbef05fb")
+	)
+	(fp_line
+		(start 2.54 0)
+		(end 2.54 -7.62)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5babc06e-1e84-44d8-bbe2-4b370a494d4a")
+	)
+	(fp_line
+		(start 2.54 6.985)
+		(end 2.54 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6312160b-53df-47d7-af8f-78be0d9a2000")
+	)
+	(pad "1" thru_hole rect
+		(at -4.1402 4.445 270)
+		(size 3.5 3.5)
+		(drill oval 1 3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f223417b-c45c-4163-8d93-df3aef336197")
+	)
+	(pad "2" thru_hole roundrect
+		(at 0 4.445 90)
+		(size 3 3.5)
+		(drill oval 1 3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "74264e68-93a2-4952-b38d-dacdfb745ca0")
+	)
+	(pad "MP" thru_hole roundrect
+		(at 0 -5.207)
+		(size 3.5 3.5)
+		(drill oval 3 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "4b2bde7c-a104-4cfe-b401-b6622b6952bf")
+	)
+	(embedded_fonts no)
+	(model "${KISYS3DMOD}/Connector_BarrelJack.3dshapes/BarrelJack_Horizontal.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

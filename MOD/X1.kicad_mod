@@ -1,0 +1,137 @@
+(footprint "X1"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "X1"
+		(at -0.008 -4.638 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "72d24340-a3fa-4997-8e69-6e1575604ccc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "14Mhz"
+		(at 0 -0.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "edcde7b5-0498-4cac-a357-f54227db98aa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "febd6c8f-efaa-428a-ab59-b9e6fedc81d9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4e5223da-8a9f-4c09-bf4d-f3406c73bffc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5.996 -6.4706)
+		(end 5.688 -6.4646)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c3a3f67e-a6c8-41d1-9444-f9c76617d1e2")
+	)
+	(fp_line
+		(start -5.996 -2.5336)
+		(end -5.996 -6.4706)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1eaba312-9692-42da-bb0a-e5d5a88f1db9")
+	)
+	(fp_line
+		(start 5.688 -6.4646)
+		(end 5.688 -2.5336)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f86bb27b-6f8b-4e79-8840-38730655232a")
+	)
+	(fp_line
+		(start 5.688 -2.5336)
+		(end -5.996 -2.5336)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "45d6ed5b-4615-468b-93f4-0cff5683164c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 1.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c8397daf-c6d9-46df-9929-8e00439b3cbc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 2.386 -4.464)
+		(size 1.778 1.778)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2185b4d5-157e-4c08-9493-e82ded939d6b")
+	)
+	(pad "2" thru_hole circle
+		(at -2.7523 -4.3844)
+		(size 1.778 1.778)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c9b6e455-886c-4e97-8e93-ae6f492a9255")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/STPS/Crystal-Low.stp"
+		(offset
+			(xyz -0.25 4.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 0 0)
+		)
+	)
+)

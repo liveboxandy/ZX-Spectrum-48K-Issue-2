@@ -1,0 +1,250 @@
+(footprint "D_DO-35_SOD27_P12.40mm_Horizontal"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=12.7mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
+	(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 12.7mm  length 4mm diameter 2mm")
+	(property "Reference" "D13"
+		(at 6.35 -2.12 180)
+		(layer "F.SilkS")
+		(uuid "fbc34e0f-0344-4ff7-a0f7-485a26f9b2ba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "1N4148"
+		(at 6.35 2.12 180)
+		(layer "F.Fab")
+		(uuid "aa99fe0a-c06f-4045-9f49-b4659044f2f6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3b5d335e-44b9-4a7e-9e6d-ac0c5e10feb7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "565d7a81-8e00-48ee-9c19-4332490d1fb0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 1.04 0)
+		(end 4.23 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9aca40a2-b270-4d59-bf1f-eb4811549508")
+	)
+	(fp_line
+		(start 4.83 -1.12)
+		(end 4.83 1.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7021cef3-1b11-43fb-94d0-78fc7aec9fe9")
+	)
+	(fp_line
+		(start 4.95 -1.12)
+		(end 4.95 1.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "61ea9d1b-19de-4122-99ed-62205dce25a0")
+	)
+	(fp_line
+		(start 5.07 -1.12)
+		(end 5.07 1.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "09bdaef3-48ba-4d50-b2f7-eda8efebeb9b")
+	)
+	(fp_line
+		(start 11.66 0)
+		(end 8.47 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "843921ba-6c53-4825-8e53-2f8f89fb1913")
+	)
+	(fp_rect
+		(start 4.23 -1.12)
+		(end 8.47 1.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "a61051b8-3655-4cd4-8297-b82e4ee19d74")
+	)
+	(fp_rect
+		(start -1.05 -1.25)
+		(end 13.75 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "f5cc0c8d-b915-4aea-9b8e-dd762edb0a7a")
+	)
+	(fp_line
+		(start 0 0)
+		(end 4.35 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "49eb06da-5233-4743-ae1f-e99d54b8691f")
+	)
+	(fp_line
+		(start 4.85 -1)
+		(end 4.85 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "154e65c3-8277-4ed4-9631-4bcd16e9c092")
+	)
+	(fp_line
+		(start 4.95 -1)
+		(end 4.95 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b5061e39-8ace-4405-934d-b3f770372033")
+	)
+	(fp_line
+		(start 5.05 -1)
+		(end 5.05 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2b15c6d2-c2a9-43ca-abc1-790269e0650c")
+	)
+	(fp_line
+		(start 12.7 0)
+		(end 8.35 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c42efb7b-23ee-4df3-ba61-9253efd71b43")
+	)
+	(fp_rect
+		(start 4.35 -1)
+		(end 8.35 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "f145382a-bbef-4245-95ec-0a8e401fdd89")
+	)
+	(fp_text user "K"
+		(at 0 -1.8 180)
+		(layer "F.SilkS")
+		(uuid "d9f986a1-ffea-41b5-a05a-447bdf26898c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "K"
+		(at 0 -1.8 180)
+		(layer "F.Fab")
+		(uuid "3739157c-849e-4090-aca0-61a0174d0443")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 6.65 0 180)
+		(layer "F.Fab")
+		(uuid "ac0219bb-c69f-4e41-b689-9db873e66233")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "439c5cd1-6fdf-4b1f-9e92-115c9add94be")
+	)
+	(pad "2" thru_hole circle
+		(at 12.7 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "78eccd69-c237-48c1-9f95-c0562591a2c8")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/STPS/DO-35_3.90x1.90x0.60x12.40.STEP"
+		(offset
+			(xyz 6.25 0 1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 180 -90)
+		)
+	)
+)

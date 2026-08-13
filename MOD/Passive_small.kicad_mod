@@ -1,0 +1,111 @@
+(footprint "Passive_small"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "C1"
+		(at 0 -0.135 0)
+		(layer "F.SilkS")
+		(uuid "61ccea26-86dd-449c-8f3e-6abb8bfeafc6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "47nF"
+		(at 0 -0.075 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3975115d-cb1c-4ca0-be3d-466a4e2bfae4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "01c8ae25-0fbf-455c-a550-d5e401d2f135")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6351bcc9-2e93-49d6-9431-042dc1e6343c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4.064 -1.016)
+		(end -4.064 1.016)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1fc370ee-8f58-4a17-82ed-ce7d5840e2a2")
+	)
+	(fp_line
+		(start -4.064 -1.016)
+		(end 4.064 -1.016)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d1b49e01-ace4-4852-baef-ba907aeb49b5")
+	)
+	(fp_line
+		(start 4.064 -1.016)
+		(end 4.064 1.016)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f22b2867-d35d-4e6a-a921-30d920ee0a55")
+	)
+	(fp_line
+		(start 4.064 1.016)
+		(end -4.064 1.016)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "af04d913-af89-4572-98d3-540744e4a87f")
+	)
+	(pad "1" thru_hole circle
+		(at -5.588 0)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4fc7bb93-af2d-4845-ab0c-3326cf25a5fe")
+	)
+	(pad "2" thru_hole circle
+		(at 5.588 0)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d24a2e73-4138-42cf-888b-569b91e667ac")
+	)
+	(embedded_fonts no)
+)

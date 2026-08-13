@@ -1,0 +1,167 @@
+(footprint "C_Axial_L3.8mm_D2.6mm_P12.70mm_Horizontal"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Capacitor, MLCC, Axial, pin pitch=12.70mm")
+	(tags "Capacitor, MLCC, Axial, pin pitch 12.70mm")
+	(property "Reference" "REF**"
+		(at 6.35 -2.42 0)
+		(layer "F.SilkS")
+		(uuid "ed563351-491e-45c7-b44b-2759048a2ec8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "P12.70mm_Horizontal"
+		(at 6.35 2.42 0)
+		(layer "F.Fab")
+		(uuid "01e14b1d-dcf7-4f46-9ae4-08193bbfe6fc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "00ef5972-e6e7-4957-a9a4-b1de20a0f168")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Capacitor Ceramic MLCC"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e1c4469e-7194-4724-a705-eee94c24bca3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 1.5 0)
+		(end 4.33 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2d503d0d-65e4-46db-8487-d4d3841d8f58")
+	)
+	(fp_line
+		(start 11.2 0)
+		(end 8.37 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ec743516-4947-413c-8e2a-ae4a14954d70")
+	)
+	(fp_rect
+		(start 4.33 -1.2)
+		(end 8.37 1.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "18eea170-0227-4a2d-9d9d-d858c4514c5f")
+	)
+	(fp_rect
+		(start -1.05 -1.55)
+		(end 13.75 1.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "aa8709e7-f369-4239-8c98-7aeb31386882")
+	)
+	(fp_line
+		(start 1.5 0)
+		(end 4.45 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "352a96d6-6ba3-4d23-92e0-fb916bd0d1a5")
+	)
+	(fp_line
+		(start 11.2 0)
+		(end 8.25 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6ce32baf-81be-4e8f-bdaa-c4f83ee50196")
+	)
+	(fp_rect
+		(start 4.45 -1.2)
+		(end 8.25 1.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "191f1d42-8296-4cb7-96b1-f844b38709eb")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 6.35 0 0)
+		(layer "F.Fab")
+		(uuid "698fbd65-95cd-4115-b60e-feb9c0933ed2")
+		(effects
+			(font
+				(size 0.76 0.76)
+				(thickness 0.114)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "28750d0b-5fa4-4b30-ae53-d12b4918bddc")
+	)
+	(pad "2" thru_hole circle
+		(at 12.7 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5ebc8163-c991-4cb7-bef8-a65a7c8cff3a")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Axial_L5.1mm_D3.1mm_P12.50mm_Horizontal.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1.02 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

@@ -1,0 +1,291 @@
+(footprint "Crystal_HC18-U_Horizontal_1EP_style2"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "HC18/U, Crystal, length 13.0mm, width 10.9mm, THT, http://5hertz.com/pdfs/04404_D.pdf")
+	(property "Reference" "REF**"
+		(at -4.485 3.44 90)
+		(layer "F.SilkS")
+		(uuid "afd5a30f-3566-4aba-a6bc-cf916b3a5840")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Crystal_HC18-U_Horizontal_1EP_style2"
+		(at 9.385 3.44 90)
+		(layer "F.Fab")
+		(uuid "d5566d5d-036d-4697-bb59-22d0ed1e2745")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c85debf0-3962-4681-89b4-0d43e63af779")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aff5fd9b-0d44-4f5a-9144-0d502e245533")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "KiLib_Generator" "crystal_resonator_oscillator"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "3c938938-d442-44ae-8a9b-bed1ff074091")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -3.31 1.74)
+		(end 8.21 1.74)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "624ccee5-0ed4-41e7-b34a-d589d273d365")
+	)
+	(fp_line
+		(start -3.31 8.39)
+		(end -3.31 1.74)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3f299a0e-3b8f-4316-8006-a77e78fd8b0a")
+	)
+	(fp_line
+		(start 0 0.87)
+		(end 0 0.81)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ecc5ee21-5702-454e-a426-eb3890b264c4")
+	)
+	(fp_line
+		(start 0 1.74)
+		(end 0 0.87)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "693a7341-fc89-4b58-8b42-846c3c0d5507")
+	)
+	(fp_line
+		(start 4.9 0.87)
+		(end 4.9 0.81)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ac2856da-7a7a-4e2a-be19-0e82cb1b0897")
+	)
+	(fp_line
+		(start 4.9 1.74)
+		(end 4.9 0.87)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1e63ba26-7873-45bd-a2d7-e734f796e374")
+	)
+	(fp_line
+		(start 8.21 1.74)
+		(end 8.21 8.39)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b489554b-b82b-4bea-a68b-b704bec2cbef")
+	)
+	(fp_rect
+		(start -3.66 1.62)
+		(end 8.56 1.74)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "07c40d15-151a-4514-aa9e-80d61310e0f3")
+	)
+	(fp_rect
+		(start -4.3 -1)
+		(end 9.2 16.76)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "d5d38e7a-79fb-47e5-8bb6-9fa7025c637e")
+	)
+	(fp_line
+		(start -3.45 9.25)
+		(end 8.35 9.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8ceb48cc-1edb-4dda-ab76-8ff5115187cc")
+	)
+	(fp_line
+		(start 0 1)
+		(end 0 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "503d7412-d6f3-4b42-bca0-39e44bf12f7d")
+	)
+	(fp_line
+		(start 0 2)
+		(end 0 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f3631cd6-5047-4edf-9f09-c97f6c5ce601")
+	)
+	(fp_line
+		(start 4.9 1)
+		(end 4.9 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "635ea3cc-2d1d-45b6-b096-96f926103788")
+	)
+	(fp_line
+		(start 4.9 2)
+		(end 4.9 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6c804d81-e69b-4176-bea8-1a344a8dfb63")
+	)
+	(fp_rect
+		(start -3.35 1.9)
+		(end 8.25 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "72acdd96-201a-49cf-bbdc-d08ba7598ef4")
+	)
+	(fp_rect
+		(start -3 2)
+		(end 7.9 15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "80e743df-6028-4ce7-a515-d128dfb78703")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.45 9.656 90)
+		(layer "F.Fab")
+		(uuid "13a31a8e-c3ba-4a33-939b-32646a225ab8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "21bee60c-8d48-4026-a7f7-264c2677b6cf")
+	)
+	(pad "2" thru_hole circle
+		(at 4.9 0)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1e7e9e95-3dfb-4302-9433-0b24fff15c9d")
+	)
+	(pad "3" thru_hole rect
+		(at -2.2 9.5)
+		(size 1.2 1.2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8844a144-2316-4d79-8e1c-c79e0e65139b")
+	)
+	(pad "3" smd roundrect
+		(at 2.45 8)
+		(size 10.5 13)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.022727)
+		(uuid "4e2d1ed4-bcae-4d23-a339-218a4c6e6f2c")
+	)
+	(pad "3" thru_hole rect
+		(at 7.5 9.5)
+		(size 1.2 1.2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f4c5ff95-de5e-4130-9242-ebccd7cae8ae")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Crystal.3dshapes/Crystal_HC18-U_Horizontal_1EP_style2.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
