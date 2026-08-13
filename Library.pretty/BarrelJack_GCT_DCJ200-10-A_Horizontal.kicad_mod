@@ -1,0 +1,314 @@
+(footprint "BarrelJack_GCT_DCJ200-10-A_Horizontal"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Barrel jack connector (5.5 mm outer diameter, 2.05 inner diameter ), https://gct.co/files/drawings/dcj200-10.pdf")
+	(tags "connector barrel jack")
+	(property "Reference" "PWR"
+		(at 0 -2.5 180)
+		(layer "F.SilkS")
+		(uuid "11f411fa-5541-4038-bd0e-2dcc513ce964")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "BarrelJack_GCT_DCJ200-10-A_Horizontal"
+		(at 0 15.5 180)
+		(layer "F.Fab")
+		(uuid "21758572-e002-4c44-ae68-f477816606a6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7222606d-145d-4607-b769-97ecd7133bdb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e55dbdc6-174e-4fa5-ad6d-0a9d194e0b56")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4.9 -1)
+		(end -4.9 0.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c96bf36a-976c-4432-bee0-252630bf0fde")
+	)
+	(fp_line
+		(start -4.6 -0.7)
+		(end -2.6 -0.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e51dfc28-b509-4896-8157-2f3a728c5137")
+	)
+	(fp_line
+		(start -4.6 13.8)
+		(end -4.6 -0.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ddac27eb-a015-4399-808a-e72bac7edd35")
+	)
+	(fp_line
+		(start -3.2 -1)
+		(end -4.9 -1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e7f8cd7c-f542-408a-99bf-84934d4042fe")
+	)
+	(fp_line
+		(start 2.6 -0.7)
+		(end 4.6 -0.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4998b7f9-edb8-473c-b32c-cacf359a8a8c")
+	)
+	(fp_line
+		(start 4.6 -0.7)
+		(end 4.6 0.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1fc4bdfa-5754-4e4d-a487-e8c9d282b25a")
+	)
+	(fp_line
+		(start 4.6 5.2)
+		(end 4.6 13.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "42c998cf-7871-499f-b07b-d73b3c33660b")
+	)
+	(fp_line
+		(start 4.6 13.8)
+		(end -4.6 13.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2f95d70b-139d-4d7e-b184-fd297dd99ff9")
+	)
+	(fp_line
+		(start -5 -1.5)
+		(end -5 14.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e7b9492b-bcf0-4c24-bbaa-3df3b7ee3202")
+	)
+	(fp_line
+		(start -5 14.2)
+		(end 5 14.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a4c005e3-b1df-418f-9415-0864dfa08fac")
+	)
+	(fp_line
+		(start 5 -1.5)
+		(end -5 -1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2f06fded-5cfe-41bc-8e1a-ca1d368b6458")
+	)
+	(fp_line
+		(start 5 0.3)
+		(end 5 -1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5f448504-ee26-405b-8fc7-c55e620983c0")
+	)
+	(fp_line
+		(start 5 14.2)
+		(end 5 5.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b266a5d0-fabc-4340-9f54-11a180cf8835")
+	)
+	(fp_line
+		(start 6.3 0.3)
+		(end 5 0.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7a2a5d88-4ca2-4a05-b52f-0ca978906d67")
+	)
+	(fp_line
+		(start 6.3 0.3)
+		(end 6.3 5.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1143ea93-bba3-43c1-a494-e741cad64405")
+	)
+	(fp_line
+		(start 6.3 5.5)
+		(end 5 5.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "397c3a87-7d0c-4407-94b9-773b992f094d")
+	)
+	(fp_line
+		(start -4.5 0.4)
+		(end -3.5 -0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ccd53435-a893-487b-9f75-3ea4cd895b59")
+	)
+	(fp_line
+		(start -4.5 13.7)
+		(end -4.5 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2d284ae1-cc1e-4e7c-ab0d-65ccb7d4ba3c")
+	)
+	(fp_line
+		(start 4.5 -0.6)
+		(end -3.5 -0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "75b10c2d-b26b-48c7-98dd-64acc279ba33")
+	)
+	(fp_line
+		(start 4.5 -0.6)
+		(end 4.5 13.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5a12371b-a133-4ca4-9de7-82a8036e49f8")
+	)
+	(fp_line
+		(start 4.5 13.7)
+		(end -4.5 13.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "45957a23-8f67-4d6e-ae50-2bf9e4969407")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 3 180)
+		(layer "F.Fab")
+		(uuid "668a34d4-f8b5-406d-a77e-a48f837e9478")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 4.6 2)
+		(drill oval 3.6 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6b529a4e-35c2-414e-a951-2fcfaad8f1f1")
+	)
+	(pad "2" thru_hole oval
+		(at 0 6.3)
+		(size 4.2 2)
+		(drill oval 3.2 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9e2891d6-e3b7-4d90-9077-16edab4c7d4d")
+	)
+	(pad "3" thru_hole oval
+		(at 4.8 2.9)
+		(size 2 4.2)
+		(drill oval 1 3.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f357c9d6-0352-44e8-b587-ece62f780b27")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_BarrelJack.3dshapes/BarrelJack_GCT_DCJ200-10-A_Horizontal.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

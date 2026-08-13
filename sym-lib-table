@@ -1,0 +1,7 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "Spectrum") (type "KiCad") (uri "${KIPRJMOD}/SYM/Spectrum.kicad_sym") (options "") (descr ""))
+	(lib (name "TSW-105-07-L-D") (type "KiCad") (uri "${KIPRJMOD}/SYM/TSW-105-07-L-D.kicad_sym") (options "") (descr ""))
+	(lib (name "TSW-108-07-L-D") (type "KiCad") (uri "${KIPRJMOD}/SYM/TSW-108-07-L-D.kicad_sym") (options "") (descr ""))
+	(lib (name "ZXSpectrumIssue2") (type "KiCad") (uri "${KIPRJMOD}/SYM/ZXSpectrumIssue2.kicad_sym") (options "") (descr ""))
+)

@@ -1,0 +1,235 @@
+(footprint "Crystal_HC18-U_Horizontal_1EP_style1"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "HC18/U, Crystal HC-18/U, length 13.0mm, width 10.9mm, THT, http://5hertz.com/pdfs/04404_D.pdf")
+	(property "Reference" "X2"
+		(at 2.5 0.43 270)
+		(layer "F.SilkS")
+		(uuid "febafb0f-9779-4a43-b71b-3eeca6a1526a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Crystal_HC18-U_Horizontal_1EP_style1"
+		(at 9.385 3.44 270)
+		(layer "F.Fab")
+		(uuid "078446a8-bd40-4a07-8197-082cd22c8de6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "185ed00d-1b20-4367-bddc-653966963ba0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "41f88079-25c1-4c7c-93f2-206e3f9f2a33")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 0 0.87)
+		(end 0 0.81)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "093f22da-a036-45af-aad3-acaedd75fc38")
+	)
+	(fp_line
+		(start 0 1.74)
+		(end 0 0.87)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f56c4b1c-005a-40a8-a3fa-798f7681d0a5")
+	)
+	(fp_line
+		(start 4.9 0.87)
+		(end 4.9 0.81)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9e448ec6-db6d-4d6b-ba11-341460dd0e1e")
+	)
+	(fp_line
+		(start 4.9 1.74)
+		(end 4.9 0.87)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "659d4c6c-5953-4a09-8bbd-f7b604a0c27f")
+	)
+	(fp_rect
+		(start -3.66 1.74)
+		(end 8.56 1.62)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "d448eda0-53f4-4294-8026-68a80ea6c70c")
+	)
+	(fp_rect
+		(start -3.31 1.74)
+		(end 8.21 16.26)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "f1ea676b-3017-495c-a698-3ffed56ef193")
+	)
+	(fp_rect
+		(start -4.1 -1)
+		(end 9 16.76)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "cb8ba68c-1425-44ee-a7d2-4b6ca046b726")
+	)
+	(fp_line
+		(start 0 1)
+		(end 0 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "35b14bca-d5b5-4f63-8060-b2baec7c689d")
+	)
+	(fp_line
+		(start 0 2)
+		(end 0 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "678ff39c-1983-4f39-8235-f7a5256809e0")
+	)
+	(fp_line
+		(start 4.9 1)
+		(end 4.9 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3d1e6b0a-52f4-4142-9587-304d1e2cb3e3")
+	)
+	(fp_line
+		(start 4.9 2)
+		(end 4.9 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "379daca7-f21d-4538-8b2a-aedd4116a75e")
+	)
+	(fp_rect
+		(start -3.35 2)
+		(end 8.25 1.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "61c73feb-991f-4df5-8dba-efc34112dc95")
+	)
+	(fp_rect
+		(start -3 2)
+		(end 7.9 15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "8493d26f-bcb5-4f7e-87e4-a9f09c300fd0")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.45 9.656 270)
+		(layer "F.Fab")
+		(uuid "59baaecc-f4d0-4d61-a0d1-a1afab37a94b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "841f6d68-2c0e-4f9a-9094-e051348f424e")
+	)
+	(pad "2" thru_hole circle
+		(at 4.9 0)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "671c543a-98aa-43d3-a24d-64df2bd14187")
+	)
+	(pad "3" smd roundrect
+		(at 2.45 9.25)
+		(size 11 13.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.022727)
+		(uuid "787ec0f1-1a15-4455-a894-7db2d09e1821")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Crystal.3dshapes/Crystal_HC18-U_Horizontal_1EP_style1.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

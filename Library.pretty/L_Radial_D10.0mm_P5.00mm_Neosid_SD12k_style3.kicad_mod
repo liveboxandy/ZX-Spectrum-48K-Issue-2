@@ -1,0 +1,128 @@
+(footprint "L_Radial_D10.0mm_P5.00mm_Neosid_SD12k_style3"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Inductor, Radial series, Radial, pin pitch=5.00mm, diameter=10.0mm, height=12.5mm, Neosid, SD12k, style3, http://www.neosid.de/produktblaetter/neosid_Festinduktivitaet_Sd12k.pdf")
+	(tags "Inductor Radial series Radial pin pitch 5.00mm  diameter 10.0mm height 12.5mm Neosid SD12k style3")
+	(property "Reference" "REF**"
+		(at 2.5 -6.25 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "e0074a9f-5917-4cc7-b29b-b830e51e6646")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_Radial_D10.0mm_P5.00mm_Neosid_SD12k_style3"
+		(at 2.5 6.25 0)
+		(layer "F.Fab")
+		(uuid "bc82dc2c-c7ab-4fe3-bb8e-237a5b663419")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4355bd2d-fe49-484a-a370-dbf65e0cc17a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1c80fff2-e3bf-485f-8b10-b8f09d25136f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 2.5 0)
+		(end 7.62 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "8f03e95b-b336-4810-a0fc-a1508f7cd599")
+	)
+	(fp_circle
+		(center 2.5 0)
+		(end 7.75 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "174bd6f0-838f-49d7-89af-9b1194e7b9e7")
+	)
+	(fp_circle
+		(center 2.5 0)
+		(end 7.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "d85e50ae-cd98-432b-a02f-eb69dfaad13e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.5 0 0)
+		(layer "F.Fab")
+		(uuid "cbbc5aaf-20ae-41b8-8807-b07a55464b89")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.4 2.4)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0f120f86-a8f1-4516-a989-a627dc81edc5")
+	)
+	(pad "2" thru_hole circle
+		(at 5 0)
+		(size 2.4 2.4)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6a177646-ef0c-46ef-837c-a542f94ba09f")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_THT.3dshapes/L_Radial_D10.0mm_P5.00mm_Neosid_SD12k_style3.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 0.9)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
