@@ -1,15 +1,16 @@
 This is a Kicad 10 project for an issue 2 16/48K ZX spectrum.
 
-It was only done in order to produce an interactive bom (ibom.html) to aid in the debugging of faulty Speccies.
-Although the gerbers appear to be correct to the original PCB I would not use them to get a PCB manufactured without a lot more checking.
+![image](./ZX_Spectrum_i2.png "Assembled PCB")
 
-It was created by overlaying pictures of a raw Issue 2 PCB, topside and bottomside in Kicad's PCBNew program and then creating the pcb layout from those and a readily available schematic. 
+It was only done in order to produce an interactive bom (ibom.html) in the bom folder to aid in the debugging of faulty Speccies.
 
+Although the gerbers appear to be correct to the original PCB I would not use them to get a PCB manufactured without a lot of checking.
+
+It was created by overlaying pictures of a raw Issue 2 PCB, topside and bottomside and then creating the pcb layout from those and a readily available schematic.
 
 Where there are differences the pictures took priority for routing and connections.
 
 Where possible the Sinclair routing has been followed, including all the ground planes. 
-
 
 Various mods have been released and the following have been applied to the pcb and schematic layout,
 
@@ -51,7 +52,6 @@ R56 220R
 
 R63 220R
 
-
 ULA 6C001 requires the following
 
 R47 1K
@@ -62,5 +62,8 @@ R56 470R
 
 R63 470R
 
+
 According to the Service Guides, IC25/26 74LS157 should NOT be of NatSemi make.
 
+Updated PCB length & Width along with hole positions. I still wouldn't get a PCB made from these gerbers.
+Also included stp files in the /STP folder along with a 3D model of a fully asembled PCB.
