@@ -1,6 +1,8 @@
 This is a Kicad 10 project for an issue 2 16/48K ZX spectrum.
 
-It was only done in order to produce an interactive bom (ibom.html) to aid in the debugging of faulty Speccies.
+![image](./ZX_Spectrum_i2.png "Assembled PCB")
+
+It was only done in order to produce an interactive bom (ibom.html) in the bom folder to aid in the debugging of faulty Speccies.
 
 Although the gerbers appear to be correct to the original PCB I would not use them to get a PCB manufactured without a lot of checking.
 
@@ -64,3 +66,4 @@ R63 470R
 According to the Service Guides, IC25/26 74LS157 should NOT be of NatSemi make.
 
 Updated PCB length & Width along with hole positions. I still wouldn't get a PCB made from these gerbers.
+Also included stp files in the /STP folder along with a 3D model of a fully asembled PCB.
