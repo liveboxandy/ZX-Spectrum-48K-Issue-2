@@ -62,3 +62,5 @@ R63 470R
 
 
 According to the Service Guides, IC25/26 74LS157 should NOT be of NatSemi make.
+
+Updated PCB length & Width along with hole positions. I still wouldn't get a PCB made from these gerbers.

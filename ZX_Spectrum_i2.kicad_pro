@@ -78,16 +78,12 @@
       ],
       "drc_exclusions": [
         [
-          "copper_edge_clearance|172720000|27432000|ed983275-5908-49da-81ed-989d8824a793|c8397a78-090e-4695-8d99-469d236a4961",
-          "2 x Ground Connections linked together"
-        ],
-        [
           "track_dangling|134090000|34560000|f85c2041-9d1e-4cd7-b8d1-b1fe9b1636f6|00000000-0000-0000-0000-000000000000",
-          "Like this on ZX Issue 2"
+          "As per Sinclair Issue 2 PCB"
         ],
         [
           "via_dangling|139030000|34550000|1960fc25-f81b-40ca-87f9-2e7fdce10c7d|00000000-0000-0000-0000-000000000000",
-          "Like this on ZX Issue 2"
+          "As per Sinclair Issue 2 PCB"
         ]
       ],
       "meta": {
